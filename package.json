@@ -1,0 +1,21 @@
+{
+  "name": "deck-service",
+  "version": "1.0.0",
+  "description": "Service, convenience Express endpoints for getting decks of cards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "squireChuck <squirechucks.codequest@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squireChuck/deck-service"
+  }
+}
