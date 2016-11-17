@@ -21,5 +21,5 @@ app.use('/myapp', apiController)
 ```
 Test with a GET request to `/myapp/api/v1/decks`
 
-### Test module
+### Test
 `$ npm test`
