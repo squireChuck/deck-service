@@ -7,7 +7,7 @@
 
 ### Node.js
 ```javascript
-var DeckService = require('deck-service');
+var DeckService = require('deck-service').deckService;
 var deckService = new DeckService();
 console.log(deckService.getAllDecks());
 ```
