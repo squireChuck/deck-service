@@ -17,7 +17,7 @@ console.log(deckService.getAllDecks());
 var express = require('express');
 var apiController = require('deck-service').deckExpressRouter;
 
-app.use('/myapp', apiController)
+app.use('/myapp', apiController);
 ```
 Test with a GET request to `/myapp/api/v1/decks`
 
