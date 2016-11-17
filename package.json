@@ -1,7 +1,7 @@
 {
   "name": "deck-service",
   "version": "1.0.0",
-  "description": "Service, convenience Express endpoints for getting decks of cards.",
+  "description": "Service and convenience Express router to get card decks.",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
