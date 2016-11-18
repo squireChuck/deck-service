@@ -10,6 +10,11 @@
 var DeckService = require('deck-service').deckService;
 var deckService = new DeckService();
 console.log(deckService.getAllDecks());
+
+var basicDeck = deckService.getDeckByName("basicDeck");
+console.log(basicDeck.cards);
+basicDeck.shuffle();
+console.log(basicDeck.cards);
 ```
 
 ### Mounting endpoints to an existing Express app
@@ -22,4 +27,5 @@ app.use('/myapp', apiController);
 Test with a GET request to `/myapp/api/v1/decks`
 
 ### Test
+To run the tests in the spec folder: 
 `$ npm test`
