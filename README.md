@@ -11,7 +11,7 @@ var DeckService = require('deck-service').deckService;
 var deckService = new DeckService();
 console.log(deckService.getAllDecks());
 
-var basicDeck = deckService.getDeckByName("basicDeck");
+var basicDeck = deckService.getDeckByName("Basic Deck");
 console.log(basicDeck.cards);
 basicDeck.shuffle();
 console.log(basicDeck.cards);
