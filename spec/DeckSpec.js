@@ -2,7 +2,7 @@
 describe("A basic card deck", function() {
     var DeckService = require('../services/DeckService');
     var deckService = new DeckService();
-    var basicDeck = deckService.getDeckByName("basicDeck");
+    var basicDeck = deckService.getDeckByName("Basic Deck");
 
     it("has 52 cards.", function() {
         expect(basicDeck.cards.length).toBe(52);
@@ -35,7 +35,7 @@ describe("A basic card deck", function() {
 describe("A deck", function() {
     var DeckService = require('../services/DeckService');
     var deckService = new DeckService();
-    var basicDeck = deckService.getDeckByName("basicDeck");
+    var basicDeck = deckService.getDeckByName("Basic Deck");
 
     it("has a name.", function(){
         expect(basicDeck).toBeTruthy();

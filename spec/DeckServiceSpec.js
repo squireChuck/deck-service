@@ -15,7 +15,7 @@ describe("DeckService", function() {
     });
 
     it("returns a deck by exact name.", function() {
-        expect(deckService.getDeckByName('basicDeck')).toBeTruthy();
+        expect(deckService.getDeckByName('Basic Deck')).toBeTruthy();
         expect(deckService.getDeckByName('basicdeck')).toBeFalsy();
     });
 });

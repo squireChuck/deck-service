@@ -38,7 +38,7 @@ deck.each { searchCard ->
 
 // Create deck
 def json = JsonOutput.toJson([
-        [ "name" : "basicDeck",
+        [ "name" : "Basic Deck",
           "cards" : deck.collect {[suit: it[0], rank: it[1]]} ]
 ])
 

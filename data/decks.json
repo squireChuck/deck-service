@@ -1,15 +1,6 @@
 [
     {
-        "name" : "",
-        "cards" : [
-            {"aval": "a"}, 
-            {"aval": "b"}, 
-            {"aval": "7"}, 
-            {"aval": "4"} 
-        ]
-    },
-    {
-        "name": "basicDeck",
+        "name": "Basic Deck",
         "cards": [
             {
                 "suit": "hearts",
