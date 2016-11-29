@@ -1,7 +1,7 @@
 # deck-service
 
 ## Installation
-`$ npm install deck-service` 
+`$ npm install` 
 
 ## Usage
 
