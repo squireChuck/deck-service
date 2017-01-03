@@ -25,7 +25,7 @@ describe("A basic card deck", function() {
                 expect(ranksInSuit.length).toBe(13);
                 
                 ranks.forEach(function(rank) {
-                    expect(ranksInSuit.includes(rank)).toBe(true)
+                    expect(ranksInSuit.includes(rank)).toBe(true);
                 });
             });
         });
